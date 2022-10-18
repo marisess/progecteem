@@ -37,8 +37,8 @@ header{
 }
 span{
     position: absolute;
-    left: 95px;
-    top: 14px;
+    left: 90px;
+    top: 4px;
    color: #BDEF52B0; 
    font-size: 69px;
    font-family: 'Revalia', cursive;
@@ -284,7 +284,7 @@ ul{
 
 .section_2 .right{
     width: 60%;
-    padding-left: 160px;
+    padding-left: 105px;
     z-index: -1;
      position: relative;
 }
@@ -319,10 +319,10 @@ ul{
 
 .section_2 .right_romb{
     width: 100%;
-    transform: translate(0, -60%);
+    transform: translate(0, -55%);
     position: absolute;
     top: 0;
-    left: -10%;
+    left: -15%;
     z-index: -1;
 }
 .section_2 .right_girl{
@@ -690,6 +690,52 @@ ul{
     }
     .p1{
         margin-top: 140px;
+    }
+}
+@media screen and (max-width: 575px) {
+    .logo1 {
+        height: 500px;
+        left: 30px;
+    }
+    .text-logo1 {
+        left: 215px;
+        bottom: 190px;
+    }
+    .text-img{
+        padding-left: 45px;
+        height: 50px;
+        transform: translate(30px, -45px);
+    }
+    .text1{
+        display: none;
+    }
+    .text2 {
+        padding-top: 0;
+        width: 340px;
+        height: 200px;
+        padding-left: 50px;
+    }
+    .all-element .img3 img{
+        left: 0;
+        top: 892px;
+        height: 359px;
+    }
+    .img_rect7 {
+        height: 57%;
+    }
+    .img4 {
+        height: 475px;
+        display: flex;
+        position: absolute;
+        transform: translate(0px, -803px);
+    }
+    .logo2 {
+        transform: translate(0px, -800px);
+        height: 675px;
+    }
+    .element-to-backround {
+        margin-left: 0;
+        margin-top: 750px;
     }
 }
 
